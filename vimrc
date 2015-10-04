@@ -29,12 +29,13 @@ set pastetoggle=<F10>
 set incsearch
 set smartcase
 set copyindent
-
+set hls
 
 
 set rnu
 colorscheme jellybeans
 set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
 
 
 function! NumberToggle()
