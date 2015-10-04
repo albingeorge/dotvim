@@ -74,6 +74,8 @@ command! PrettyXML call DoPrettyXML()
 
 :set rnu
 :colorscheme jellybeans
+:set laststatus=2
+
 
 function! NumberToggle()
   if(&relativenumber == 1)
