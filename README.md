@@ -1,7 +1,13 @@
 ##How to Install
 
-```
-cd ~
-git clone <this repo url>
-ln -s ~/vimrc ~/.vimrc
-```
+1. Clone this repo to the user's home directory
+
+ ```
+ git clone "git@github.com:albingeorge/dotvim.git" .vimrc
+ ```
+
+2. Create symlink to .vimrc file
+
+ ```
+ ln -s ~/vimrc ~/.vimrc
+ ```
