@@ -3,7 +3,7 @@
 1. Clone this repo to the user's home directory
 
  ```
- git clone "git@github.com:albingeorge/dotvim.git" .vimrc
+ git clone --recursive "git@github.com:albingeorge/dotvim.git" .vimrc
  ```
 
 2. Create symlink to .vimrc file
