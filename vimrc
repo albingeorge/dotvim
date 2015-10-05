@@ -30,7 +30,7 @@ set incsearch
 set smartcase
 set copyindent
 set hls
-
+set nrformats=
 
 set rnu
 colorscheme jellybeans
