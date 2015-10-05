@@ -36,7 +36,7 @@ set rnu
 colorscheme jellybeans
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
-
+let g:ctrlp_follow_symlinks = 2
 
 function! NumberToggle()
   if(&relativenumber == 1)
