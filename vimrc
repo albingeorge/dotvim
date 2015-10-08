@@ -38,6 +38,9 @@ set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:ctrlp_working_path_mode = ''
 let g:ctrlp_follow_symlinks = 2
+let g:multi_cursor_exit_from_insert_mode = 0
+
+
 
 function! NumberToggle()
   if(&relativenumber == 1)
