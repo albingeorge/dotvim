@@ -33,7 +33,7 @@ set hls
 set nrformats=
 
 set rnu
-colorscheme jellybeans
+colorscheme badwolf
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:ctrlp_working_path_mode = ''
