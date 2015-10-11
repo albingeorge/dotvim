@@ -96,3 +96,6 @@ endfunction
 command! -nargs=1 Bs :call BufSel("<args>")
 
 :nnoremap <F5> :buffers<CR>:buffer<Space>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 100, 4)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 100, 4)<CR>
+
