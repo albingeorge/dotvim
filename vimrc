@@ -38,6 +38,7 @@ set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:ctrlp_working_path_mode = ''
 let g:ctrlp_follow_symlinks = 2
+let g:ctrlp_max_files=0
 let g:multi_cursor_exit_from_insert_mode = 0
 
 
@@ -96,6 +97,6 @@ endfunction
 command! -nargs=1 Bs :call BufSel("<args>")
 
 :nnoremap <F5> :buffers<CR>:buffer<Space>
-noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 100, 4)<CR>
-noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 100, 4)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 50, 4)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 50, 4)<CR>
 
